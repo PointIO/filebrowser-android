@@ -18,14 +18,14 @@
             android:layout_height="fill_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="User: "
-            android:id="@+id/useridlable" />
+            android:id="@+id/tv_userLabel" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text=""
-            android:id="@+id/userid_show" />
+            android:id="@+id/tv_useridshow" />
     </LinearLayout>
 
     <LinearLayout
@@ -38,14 +38,14 @@
             android:layout_height="fill_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Session Id: "
-            android:id="@+id/sessionidlable" />
+            android:id="@+id/tv_sessionidlabel" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text=""
-            android:id="@+id/sessionid_show"
+            android:id="@+id/tv_sessionid_show"
              />
     </LinearLayout>
 
@@ -60,7 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:text="Confirm your account"
-            android:id="@+id/cfmBtn" />
+            android:id="@+id/btn_cfm" />
     </LinearLayout>
 
 </LinearLayout>

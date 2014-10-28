@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Email or Username: "
-        android:id="@+id/textViewUser" />
+        android:id="@+id/tv_User" />
 
     <EditText
         android:layout_width="match_parent"
@@ -16,14 +16,14 @@
         android:inputType="textEmailAddress"
         android:ems="10"
         android:singleLine="true"
-        android:id="@+id/editText" />
+        android:id="@+id/et_user" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Password"
-        android:id="@+id/textViewPwd" />
+        android:id="@+id/tv_Pwd" />
 
     <EditText
         android:layout_width="match_parent"
@@ -31,7 +31,20 @@
         android:inputType="textPassword"
         android:singleLine="true"
         android:ems="10"
-        android:id="@+id/editText2" />
+        android:id="@+id/et_password" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Password"
+        android:id="@+id/cb_savePwd"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto Login"
+        android:id="@+id/cb_autoLogin" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -49,21 +62,21 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Sign In"
-                android:id="@+id/signin" />
+                android:text="Login"
+                android:id="@+id/btn_login" />
 
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Sign Up"
-                android:id="@+id/signup"
+                android:text="Logout"
+                android:id="@+id/btn_logout"
                 />
 
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Demo"
-                android:id="@+id/demobtn" />
+                android:id="@+id/btn_demo" />
 
         </TableLayout>
     </LinearLayout>

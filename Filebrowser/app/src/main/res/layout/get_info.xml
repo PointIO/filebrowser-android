@@ -31,8 +31,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text=""
-            android:id="@+id/get_level"
+            android:id="@+id/tv_user"
              />
     </LinearLayout>
 
@@ -49,14 +48,13 @@
             android:layout_height="fill_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="The session key is: "
-            android:id="@+id/sessionlabel" />
+            android:id="@+id/tv_session_label" />
 
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text=""
-            android:id="@+id/get_sessionid"
+            android:id="@+id/tv_sessionid_show"
              />
     </LinearLayout>
 
